@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sen', sans-serif;
+    background-color:white;
+    transition: 0.5s ease;
+}
+
+header {
+    padding: 8px;
+    background-color: black;    
+    color: white;
+    height: 25px ; 
+    transition: 0.5s ease;
+}
+
+.Bama {
+    margin: 0;
+    float:  left;
+}
+
+.Bama > li{
+    display: inline-block;
+}
+
+.Bama > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    margin: 0;
+    float:  right; 
+    text-decoration: none;
+    transition: 0.5s ease;
+}   
+
+.nav > li {
+    display: inline-block;
+
+}
+
+.nav > li > a {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+form {
+     width: 360px;
+     margin-left: 40%; 
+     margin-right: 50%;
+     background-color: white;
+     transition: 0.5s ease;
+}
+h1{
+    text-align: center;
+    font-size: px ;
+    color:black;
+}
+
+input {
+    padding: 10px;
+    font-size: inherit ; 
+}
+
+input[ type="firstname"]{
+    display: block;
+    width: 100%;
+}
+
+input[ type="lastname"]{
+    display: block;
+    width: 100%;
+}
+
+input[ type="email"]{
+    display: block;
+    width: 100%;
+}
+
+input[ type="password"]{
+    display: block;
+    width: 100%;
+}
+
+input[ type="radio"]{
+    margin-bottom: 22px;
+}
+
+input[ type="country"]{
+    display: block;
+    width: 100%; 
+}
+
+input[ type="address"]{
+    display: block;
+    width: 100%;
+}
+
+input[ type="birthday"]{
+    display: block;
+    margin-bottom: 40px;
+}
+
+input[ type="button"] {
+    display: flex;
+    margin-top: px;
+    position: relative;
+    left: auto;
+    justify-content: center;
+    align-items: center;
+}
